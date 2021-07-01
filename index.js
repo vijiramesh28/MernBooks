@@ -24,6 +24,8 @@ mongoose.connect(process.env.MONGO_URL, {
 const Database = require('./database/database');
 
 const BookModel = require('./database/Books');
+const AuthorModel = require('./database/Authors');
+const PublicationModel = require('./database/Publication');
 
 //json from express
 app.use(express.json());

@@ -1,11 +1,15 @@
 const mongoose = require('mongoose');
 
+//Creating Schema
 const PublicationSchema = mongoose.Schema({
     id: Number,
     name: String,
     books: [String]
 });
 
-const PublicationModel = mongoose.model(PublicationSchema);
+//Creating model
+const PublicationModel = mongoose.model("Publications", PublicationSchema);
 
+
+//exports
 module.exports = PublicationModel;
