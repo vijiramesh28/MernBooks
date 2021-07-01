@@ -23,6 +23,8 @@ mongoose.connect(process.env.MONGO_URL, {
 //require database file
 const Database = require('./database/database');
 
+const BookModel = require('./database/Books');
+
 //json from express
 app.use(express.json());
 
