@@ -1,0 +1,38 @@
+.back_login{
+    width:100%;
+    height:100vh;
+    background-color: #051E34;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_box{
+    width:20%;
+    height:10%;
+    background-color: rgb(16, 53, 121);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+}
+.login_box:hover{
+    background-color: rgba(54, 54, 54, 0.945);
+    cursor:pointer;
+}
+.login_box .g_img{
+    width:20%;
+    height:70%;
+}
+.login_box .g_btn{
+    width:80%;
+    font-size:20px;
+    font-family: poppins;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color:#fff;
+}
+.dis_name{
+    color:#fff;
+}
